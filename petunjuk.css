@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: tomato;
+    
+}
+
+.utama{
+    display: grid;
+    
+    
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-content: center;
+}
+
+.utama h3{
+    font-weight: bolder;
+    font-size: 4vw;
+    
+}
+
+.kembali a{
+    font-style: none;
+    text-decoration: none;
+
+}
+
+ button{
+    text-decoration: none;
+}
+
+.kembali{
+    text-decoration: none;
+    font-style: none;
+}

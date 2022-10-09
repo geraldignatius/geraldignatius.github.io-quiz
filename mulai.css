@@ -1,0 +1,111 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ .utama{
+    display: grid;
+    padding: 0;
+    background-color: rgb(39, 39, 214);
+    height: 100vh;
+ }
+ /* awal header */
+ .pertama{
+    /* border: 1px solid black; */
+    height: 15vh;
+    /* background-color: blueviolet; */
+ }
+ 
+
+ .pertama .row {
+    height: 100%;
+    /* border: 1px solid red; */
+ }
+
+ .pertama .row .logo{
+    /* border: 1px solid orange; */
+    height: 100% ;
+ }
+
+.pertama .row .logo img{
+    height: 100%;
+ }
+
+ /* akhir header */
+
+
+
+ 
+ /* awal banner */
+ .kedua{
+    /* border: 1px solid black; */
+    height: 25vh;
+    width: 100vw;
+    /* background-color: blueviolet; */
+    padding: 0;
+    margin: 0;
+ }
+ 
+
+ .kedua .row {
+    height: 100%;
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+ }
+
+ .kedua .row .banner{
+    /* border: 1px solid orange; */
+    height: 100% ;
+    width: 100%;
+    padding: 0;
+ }
+
+.kedua .row .banner img{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+ }
+
+/* akhir banner */
+
+/* awal footer */
+.ketiga{
+    /* border: 1px solid black; */
+    height: 25vh;
+    width: 100vw;
+    /* background-color: blueviolet; */
+    padding: 0;
+    margin: 0;
+ }
+ 
+
+ .ketiga .row {
+    height: 100%;
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+ }
+
+ .ketiga .row .opsi{
+    /* border: 1px solid orange; */
+    height: 100% ;
+    width: 100%;
+    padding: 0;
+ }
+
+.ketiga .row .opsi img{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border-radius: 800px;
+    transition: 1s;
+ }
+
+.ketiga .row .opsi img:hover{
+    transform: scale(1.2);
+}
+
+/* akhir footer */

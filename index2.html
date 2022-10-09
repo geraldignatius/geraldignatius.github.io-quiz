@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>soal2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid container-1" id="quiz">
+      <!-- awal header -->
+      <div class="header">
+        <div class="gambar satu">
+          <img src="gambar/smk.png" class="img-fluid img putar-kiri" />
+        </div>
+        <p id="timer">10:00</p>
+        <div class="gambar dua">
+          <img
+            src="gambar/kihajar-removebg-preview-removebg-preview.png"
+            class="img-fluid img2 putar-kiri"
+          />
+        </div>
+      </div>
+      <!-- akhir header -->
+
+      <!-- awal content -->
+      <div class="content">
+        <img id="question-image" src="" class="img-fluid mx-auto img">
+        <p id="question">apa nama dari komponen komputer diatas?</p>
+
+        <div class="d-flex flex-column mb-3">
+          <div class="form-check p-2">
+            <input
+              class="answer form-check-input"
+              type="radio"
+              name="answer"
+              id="a"
+            />
+            <label class="form-check-label" for="a" id="a_text">
+               
+            </label>
+          </div>
+
+          <div class="form-check p-2">
+            <input
+              class="answer form-check-input"
+              type="radio"
+              name="answer"
+              id="b"
+            />
+            <label class="form-check-label" for="a" id="b_text">
+               
+            </label>
+          </div>
+
+          <div class="form-check p-2">
+            <input
+              class="answer form-check-input"
+              type="radio"
+              name="answer"
+              id="c"
+            />
+            <label class="form-check-label" for="c" id="c_text">
+              
+            </label>
+          </div>
+        </div>
+      </div>
+      <!-- akhir content -->
+
+      <!-- awal footer -->
+      <div class="footer text-end">
+        <button class=" answer" id="submit">SELANJUTNYA</button>
+      </div>
+      <!-- akhir footer -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5CE1E6;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+.container-1{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+
+}
+
+
+
+
+.header{
+    display: flex;
+    width: auto;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    
+}
+
+
+.header .gambar{
+    /* background-color: black; */
+    width: 10%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+.content .jawaban{
+    display: flex;
+    grid-template-columns: 1fr auto 1fr;
+    
+    width: 100%;
+    justify-content: start;
+   
+    margin-bottom: 5%;
+    font-size: 6vw;
+    
+}
+
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+
+  .btn-2 {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #00ffff 100%);
+  }
+
+  
+
+.footer{
+    margin-left: -5px;
+}
+
+.putar-kiri {
+    -moz-animation: rota-full-left 20s infinite linear;
+    -webkit-animation: rota-full-left 20s infinite linear;
+}
+@-moz-keyframes rota-full-left {
+     0% {-moz-transform: rotate(0deg);}                     
+     100% {-moz-transform: rotate(-360deg);}
+}
+@-webkit-keyframes rota-full-left {
+     0% {-webkit-transform: rotate(0deg);}                    
+     100% {-webkit-transform: rotate(-360deg);}
+}
