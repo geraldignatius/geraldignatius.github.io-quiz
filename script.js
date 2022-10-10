@@ -187,8 +187,8 @@ submitBtn.addEventListener('click', () => {
     }
 })
 
-const startingMinutes = 1
-let time = startingMinutes * 10
+const startingMinutes = 10
+let time = startingMinutes * 60
 
 const countdown = document.getElementById("timer")
 

@@ -87,7 +87,7 @@ a{
     margin-left: -5px;
 }
 
-.putar-kiri {
+/* .putar-kiri {
     -moz-animation: rota-full-left 20s infinite linear;
     -webkit-animation: rota-full-left 20s infinite linear;
 }
@@ -98,4 +98,4 @@ a{
 @-webkit-keyframes rota-full-left {
      0% {-webkit-transform: rotate(0deg);}                    
      100% {-webkit-transform: rotate(-360deg);}
-}
+} */
